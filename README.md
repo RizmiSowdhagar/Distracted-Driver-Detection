@@ -51,19 +51,6 @@ To automate the detection of distracted driver behavior by classifying images in
 - Confusion Matrix: Used to evaluate misclassifications  
 - F1-Score, Precision, and Recall: Computed for each class
 
-## Folder Structure
-├── dataset/
-│ ├── c0/ # Safe driving
-│ ├── c1/ # Texting - right
-│ ├── c2/ # Talking on the phone - right
-│ └── ...
-├── model/
-│ ├── model.h5
-│ └── history_plot.png
-├── driver_detection.ipynb
-├── README.md
-
-
 ## Future Enhancements
 
 - Integrate real-time webcam prediction support using OpenCV  
